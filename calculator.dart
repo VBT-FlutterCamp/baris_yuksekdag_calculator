@@ -2,10 +2,10 @@ import 'dart:io';
 
 void main() {
   print("Birinci sayıyı girin:");
-  int sayi = int.parse(stdin.readLineSync() ?? "0" );
+  int sayi = int.parse(stdin.readLineSync() ?? "0");
 
   print("İkinci sayıyı girin:");
-  int sayi2 = int.parse(stdin.readLineSync() ?? "0" );
+  int sayi2 = int.parse(stdin.readLineSync() ?? "0");
 
   print("Yapmak istediğiniz işlemi girin: (+,-,/,*)");
   String? islem = stdin.readLineSync();
